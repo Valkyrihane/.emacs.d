@@ -1,6 +1,4 @@
-(require 'package)
-(package-initialize)
-
+;; Batmacs path
 (defconst BATMACS_PATH "~/.emacs.d/batmacs/"
   "Batmacs config files folder path")
 
@@ -9,6 +7,19 @@
   (concat BATMACS_PATH file))
 
 ;; load config files
-(load (batmacs_path "batmacs_keybinds.el"))
-(load (batmacs_path "batmacs_settings.el"))
+;; important config - order of loaded files might be important
+(load (batmacs_path "batmacs_packages"))
+(load (batmacs_path "batmacs_organisation"))
+(load (batmacs_path "batmacs_keybinds"))
+(load (batmacs_path "batmacs_settings"))
 
+;; global config
+(load (batmacs_path "batmacs_misc"))
+(load (batmacs_path "batmacs_theme"))
+
+;; specific packages
+(load (batmacs_path "batmacs_ido"))
+(load (batmacs_path "batmacs_recentf"))
+
+;; custom config
+(load (batmacs_path "batmacs_custom"))
