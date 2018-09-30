@@ -7,9 +7,11 @@
 (package-initialize)
 
 
-(defconst NEEDED_PACKAGES '(ido
+(defconst NEEDED_PACKAGES '(darktooth-theme
+			    ido
 			    ido-vertical-mode
 			    no-littering
+			    rainbow-delimiters
 			    recentf
 			    use-package))
 
