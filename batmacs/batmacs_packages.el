@@ -10,7 +10,8 @@
 (defconst NEEDED_PACKAGES '(ido
 			    ido-vertical-mode
 			    no-littering
-			    recentf))
+			    recentf
+			    use-package))
 
 (dolist (p NEEDED_PACKAGES)
   (when (not (package-installed-p p))

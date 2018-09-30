@@ -1,5 +1,6 @@
 
 ;; clean .emacs.d
+(require 'use-package)
 (require 'no-littering)
 (require 'recentf)
 
@@ -14,4 +15,4 @@
       `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
 ;; customizations are now saved in batmacs_custom.el
-(setq custom-file (expand-file-name "batmacs/batmacs_custom.el" user-emacs-directory))
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
