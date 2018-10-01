@@ -19,9 +19,12 @@
 (load (batmacs_path "batmacs_theme"))
 
 ;; specific packages
-(load (batmacs_path "batmacs_ido"))
+(load (batmacs_path "batmacs_ivy"))
 (load (batmacs_path "batmacs_recentf"))
 (load (batmacs_path "batmacs_flycheck"))
 
 ;; custom config
 (load (batmacs_path "batmacs_custom"))
+
+(provide 'batmacs_init)
+;;; batmacs_init.el ends here

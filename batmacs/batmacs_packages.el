@@ -7,16 +7,17 @@
 (package-initialize)
 
 
-(defconst NEEDED_PACKAGES '(darktooth-theme
+(defconst NEEDED_PACKAGES '(counsel
+			    darktooth-theme
 			    flycheck
 			    flycheck-color-mode-line
-			    ido
-			    ido-vertical-mode
+			    ivy
 			    no-littering
 			    powerline
 			    rainbow-delimiters
 			    recentf
 			    rjsx-mode
+			    swiper
 			    use-package))
 
 (dolist (p NEEDED_PACKAGES)
