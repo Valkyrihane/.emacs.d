@@ -8,11 +8,15 @@
 
 
 (defconst NEEDED_PACKAGES '(darktooth-theme
+			    flycheck
+			    flycheck-color-mode-line
 			    ido
 			    ido-vertical-mode
 			    no-littering
+			    powerline
 			    rainbow-delimiters
 			    recentf
+			    rjsx-mode
 			    use-package))
 
 (dolist (p NEEDED_PACKAGES)
