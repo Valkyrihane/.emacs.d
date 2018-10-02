@@ -7,7 +7,8 @@
 (package-initialize)
 
 
-(defconst NEEDED_PACKAGES '(counsel
+(defconst NEEDED_PACKAGES '(company
+			    counsel
 			    darktooth-theme
 			    flycheck
 			    flycheck-color-mode-line
