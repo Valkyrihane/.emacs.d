@@ -1,3 +1,4 @@
+;; https://github.com/wasamasa/gotham-theme
 ;; theme loading
 (load-theme 'gotham t)
 
