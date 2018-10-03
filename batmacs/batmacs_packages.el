@@ -11,6 +11,7 @@
 			    darktooth-theme
 			    flycheck
 			    flycheck-color-mode-line
+			    highlight-indent-guides
 			    ivy
 			    no-littering
 			    powerline
