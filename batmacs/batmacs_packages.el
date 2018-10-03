@@ -9,9 +9,11 @@
 
 (defconst NEEDED_PACKAGES '(counsel
 			    darktooth-theme
+			    drag-stuff
 			    flycheck
 			    flycheck-color-mode-line
 			    highlight-indent-guides
+			    highlight-numbers
 			    ivy
 			    no-littering
 			    powerline
@@ -25,4 +27,3 @@
   (when (not (package-installed-p p))
     (package-refresh-contents)
 (package-install p)))
-

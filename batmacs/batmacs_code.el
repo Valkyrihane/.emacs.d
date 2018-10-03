@@ -12,5 +12,18 @@
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (setq highlight-indent-guides-method 'character)
 
+;;display parenthesis
+(show-paren-mode)
+
+;;self-explanatory
+(defun nuke_traling ()
+  "Delets whitespaces."
+  (add-hook 'before-save-hook #'delete-trailing-whitespace nil t))
+(add-hook 'prog-mode-hook #'nuke_traling)
+
+;;Highlight-numbers-mode
+(require 'highlight-numbers)
+(add-hook 'prog-mode-hook 'highlight-numbers-mode)
+
 (provide 'batmacs_code)
-;;; batmacs_code.el
+;;; batmacs_code.el ends here
