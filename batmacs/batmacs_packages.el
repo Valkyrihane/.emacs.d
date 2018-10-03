@@ -9,6 +9,7 @@
 
 (defconst NEEDED_PACKAGES '(counsel
 			    darktooth-theme
+			    diminish
 			    drag-stuff
 			    flycheck
 			    flycheck-color-mode-line

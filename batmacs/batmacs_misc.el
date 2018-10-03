@@ -12,8 +12,14 @@
 ;; Don't show *Buffer list* when opening multiple files at the same time.
 (setq inhibit-startup-buffer-menu t)
 
+;; Deletes startup buffer
+(setq inhibit-startup-message t)
+
 ;; Show only one active window when opening multiple files at the same time.
 (add-hook 'window-setup-hook 'delete-other-windows)
+
+;; yes > y | no > n
+(fset 'yes-or-no-p 'y-or-n-p)
 
 (provide 'batmacs_misc)
 ;;; batmacs_misc.el ends here

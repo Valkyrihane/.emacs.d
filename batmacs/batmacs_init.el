@@ -21,6 +21,7 @@
 ;; specific packages
 (load (batmacs_path "batmacs_ivy"))
 (load (batmacs_path "batmacs_recentf"))
+(load (batmacs_path "batmacs_diminish"))
 (load (batmacs_path "batmacs_flycheck"))
 
 ;; custom config
