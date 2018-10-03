@@ -13,6 +13,7 @@
 			    drag-stuff
 			    flycheck
 			    flycheck-color-mode-line
+			    gotham-theme
 			    highlight-indent-guides
 			    highlight-numbers
 			    ivy
