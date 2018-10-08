@@ -7,13 +7,13 @@
 (package-initialize)
 
 
-(defconst NEEDED_PACKAGES '(counsel
-			    darktooth-theme
+(defconst NEEDED_PACKAGES '(company
+			    counsel
 			    diminish
+			    doom-themes
 			    drag-stuff
 			    flycheck
 			    flycheck-color-mode-line
-			    gotham-theme
 			    highlight-indent-guides
 			    highlight-numbers
 			    ivy
