@@ -6,9 +6,9 @@
   "returning batmacs file full path"
   (concat BATMACS_PATH file))
 
+
 ;; load config files
 ;; important config - order of loaded files might be important
-(load (batmacs_path "batmacs_gotham_theme"))
 (load (batmacs_path "batmacs_packages"))
 (load (batmacs_path "batmacs_organisation"))
 (load (batmacs_path "batmacs_keybinds"))

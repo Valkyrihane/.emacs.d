@@ -7,8 +7,10 @@
 (package-initialize)
 
 
-(defconst NEEDED_PACKAGES '(company
+(defconst NEEDED_PACKAGES '(arduino-mode
+			    company
 			    counsel
+			    darktooth-theme
 			    diminish
 			    doom-themes
 			    drag-stuff
