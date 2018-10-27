@@ -24,6 +24,7 @@
 			    rainbow-delimiters
 			    recentf
 			    rjsx-mode
+			    speed-type
 			    swiper
 			    use-package))
 
