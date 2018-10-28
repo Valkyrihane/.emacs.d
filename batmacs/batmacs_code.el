@@ -4,11 +4,13 @@
 
 ;; auto-complete : company-mode
 (require 'company)
-
 (add-hook 'after-init-hook 'global-company-mode)
 
 ;;indentation
+(require 'smart-tabs-mode)
 (require 'highlight-indent-guides)
+
+(setq-default tab-width 4)
 
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (setq highlight-indent-guides-method 'character)
