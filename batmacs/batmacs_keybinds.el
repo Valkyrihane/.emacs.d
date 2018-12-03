@@ -18,5 +18,13 @@
 (global-set-key (kbd "<M-up>")    'drag-stuff-up)
 (global-set-key (kbd "<M-down>")  'drag-stuff-down)
 
+;;neo-tree
+(require 'neotree)
+(global-set-key (kbd "C-c RET") 'neotree-toggle)
+
+;;dumb-jump
+(require 'dumb-jump)
+(global-set-key (kbd "C-c *") 'dumb-jump-go)
+
 (provide 'batmacs_keybinds)
 ;;; batmacs_keybinds.el ends here
