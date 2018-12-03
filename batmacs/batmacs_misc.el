@@ -21,5 +21,11 @@
 ;; yes > y | no > n
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; links clipboard to emacs
+;; You need to install the xclip package on
+;; your computer in order to use this config
+(require 'xclip)
+(xclip-mode t)
+
 (provide 'batmacs_misc)
 ;;; batmacs_misc.el ends here

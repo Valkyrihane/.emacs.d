@@ -35,6 +35,7 @@
 			    speed-type
 			    swiper
 			    use-package
+                            xclip
                             web-mode))
 
 (dolist (p NEEDED_PACKAGES)
