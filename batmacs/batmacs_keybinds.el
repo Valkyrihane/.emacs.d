@@ -26,5 +26,11 @@
 (require 'dumb-jump)
 (global-set-key (kbd "C-c *") 'dumb-jump-go)
 
+;; counsel
+(global-set-key (kbd "C-x f") 'counsel-git)
+;; you need to have ag (aka the_silver_surfer)
+;; installed in order to use this
+(global-set-key (kbd "C-x C-a") 'counsel-ag)
+
 (provide 'batmacs_keybinds)
 ;;; batmacs_keybinds.el ends here
