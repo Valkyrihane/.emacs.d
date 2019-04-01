@@ -15,6 +15,7 @@
 (load (batmacs_path "batmacs_settings"))
 
 ;; global config
+(load (batmacs_path "batmacs_company"))
 (load (batmacs_path "batmacs_code"))
 (load (batmacs_path "batmacs_misc"))
 (load (batmacs_path "batmacs_theme"))

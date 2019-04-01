@@ -11,9 +11,12 @@
 			    cmake-mode
 			    company
                             company-c-headers
+                            company-tern
 			    counsel
 			    darktooth-theme
 			    diminish
+                            docker-compose-mode
+                            dockerfile-mode
 			    doom-themes
 			    drag-stuff
 			    dumb-jump
@@ -24,6 +27,8 @@
 			    ivy
                             json-mode
 			    lua-mode
+                            markdown-mode
+                            markdown-mode+
 			    modern-cpp-font-lock
 			    neotree
 			    no-littering

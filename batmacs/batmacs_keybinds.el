@@ -26,6 +26,10 @@
 (require 'dumb-jump)
 (global-set-key (kbd "C-c *") 'dumb-jump-go)
 
+;;iedit
+(require 'iedit)
+(global-set-key (kbd "C-c ;") 'iedit-mode)
+
 ;; counsel
 (global-set-key (kbd "C-x f") 'counsel-git)
 ;; you need to have ag (aka the_silver_surfer)

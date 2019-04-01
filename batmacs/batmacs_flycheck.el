@@ -18,7 +18,7 @@
               (append flycheck-disabled-checkers
                       '(javascript-jshint)))
 
-;; use eslint with web-mode for js files
+;; use eslint with js-mode for js files
 (flycheck-add-mode 'javascript-eslint 'web-mode)
 
 ;; customize flycheck temp file prefix
